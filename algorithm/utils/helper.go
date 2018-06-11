@@ -9,7 +9,7 @@ import (
 )
 
 func GetArrayOfSize(n int) []int {
-	p, err := build.Default.Import("Algorithms-Learning-With-Go/sort/utils", "", build.FindOnly)
+	p, err := build.Default.Import("golibrary/algorithm/utils", "", build.FindOnly)
 
 	if err != nil {
 		// handle error
